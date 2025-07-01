@@ -147,6 +147,19 @@ The application is ready for deployment on Vercel:
 For questions or issues, please refer to the documentation or create an issue in the repository.
 
 
+# My Env keys. The file name should be .evn.local
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=https://fglbcbtcccxmvyytpffa.supabase.co
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZnbGJjYnRjY2N4bXZ5eXRwZmZhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA5NDM4MTMsImV4cCI6MjA2NjUxOTgxM30.O9A7FwdOglTMo1N4LWo-_aS9T8u5_mEDK_r8dlC4xZk
+
+# Google OAuth
+GOOGLE_CLIENT_ID=233082799354-s9pvg27nkt364cs1v6kg6ksqu87sjmbv.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=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
+GOOGLE_REDIRECT_URI=http://localhost:3000/api/google/callback
+# GOOGLE_REDIRECT_URI=http://localhost:3001/api/google/callback
+
+
 # To get the HubSpot keys
 Then secondly you need to create an account at https://www.hubspot.com/
 
